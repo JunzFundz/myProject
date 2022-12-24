@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    height: 100vh;
+    gap: 1em;
+    box-sizing: border-box;
+}
+.hi_1{
+    grid-column: 1 /7;
+    height: 10vh;
+    border:  1px solid black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+.hi_2{
+    grid-column: 7/8;
+    height: 10vh;
+    border:  1px solid black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.hi_3{
+    grid-column: 1 /8;
+    height: 100vh;
+    padding-top: 0px;
+    border:  1px solid black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
+.hi_4{
+    grid-column: 1/8;
+    height: 10vh;
+    border:  1px solid black;
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+}
